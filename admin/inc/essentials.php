@@ -1,7 +1,7 @@
-<?php
+﻿<?php
 
   //frontend purpose data
-  define('SITE_URL', '/laravel/DoAnLienNganh/vietchill//');
+  define('SITE_URL', '/vietchill/');
   define('ABOUT_IMG_PATH',SITE_URL.'images/about/');
   define('CAROUSEL_IMG_PATH',SITE_URL.'images/carousel/');
   define('FACILITIES_IMG_PATH',SITE_URL.'images/facilities/');
