@@ -1,7 +1,7 @@
 ﻿<?php
 
   //frontend purpose data
-  define('SITE_URL', '/vietchill/');
+  define('SITE_URL', '/doanliennganh/vietchill/');
   define('ABOUT_IMG_PATH',SITE_URL.'images/about/');
   define('CAROUSEL_IMG_PATH',SITE_URL.'images/carousel/');
   define('FACILITIES_IMG_PATH',SITE_URL.'images/facilities/');
@@ -10,7 +10,7 @@
   define('SERVICES_IMG_PATH',SITE_URL.'images/services/');
 
   //backend upload process needs this data
-  define('UPLOAD_IMAGE_PATH',$_SERVER['DOCUMENT_ROOT'].'/vietchill/images/');
+  define('UPLOAD_IMAGE_PATH',$_SERVER['DOCUMENT_ROOT'].'/doanliennganh/vietchill/images/');
   define('ABOUT_FOLDER','about/');
   define('CAROUSEL_FOLDER','carousel/');
   define('FACILITIES_FOLDER','facilities/');

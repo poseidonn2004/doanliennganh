@@ -34,5 +34,10 @@
       $TXN_AMOUNT,$frm_data['name'],$frm_data['phonenum'],$frm_data['address']],'issssss');
   }
 
-  redirect('bookings.php');
+  $_SESSION['booking_id'] = $booking_id;
+  $_SESSION['order_id'] = $ORDER_ID;
+
+  header("Location: vnpay_payment.php?order_id=".$ORDER_ID);
+  exit();
+
 ?>

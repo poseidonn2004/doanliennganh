@@ -2,7 +2,7 @@
 
   $hname = '127.0.0.1:3306';
   $uname = 'root';
-  $pass = '123123';
+  $pass = '';
   $db = 'doanliennganh';
 
   $con = mysqli_connect($hname, $uname, $pass, $db);
